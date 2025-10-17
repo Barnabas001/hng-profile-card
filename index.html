@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Profile Card</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <article data-testid="test-profile-card">
+      <figure>
+        <img
+          src="barnabas.jpg"
+          alt="user-avater"
+          data-testid="test-user-avatar"
+        />
+      </figure>
+
+      <div>
+        <header>
+          <h2 data-testid="test-user-name">Barnabas Olayinka Affonshike</h2>
+        </header>
+
+        <p data-testid="test-user-bio">
+          A young passionate and dedicated frontend developer
+        </p>
+
+        <footer>
+          Current Time (ms): <span data-testid="test-user-time"></span>
+        </footer>
+
+        <nav data-testid="test-user-social-links">
+          <ul>
+            <li>
+              <a
+                href="https://x.com/AffonshikeBarn1"
+                data-testid="test-user-social-twitter"
+                target="_blank"
+                >Barnabas Twitter</a
+              >
+            </li>
+
+            <li>
+              <a
+                href="https://github.com/Barnabas001"
+                data-testid="test-user-social-github"
+                target="_blank"
+                >Barnabas Github</a
+              >
+            </li>
+          </ul>
+        </nav>
+
+        <section>
+          <h3>Hobbies</h3>
+          <ul data-testid="test-user-hobbies">
+            <li>Reading</li>
+            <li>Coding</li>
+            <li>Traveling</li>
+          </ul>
+        </section>
+
+        <section>
+          <h3>Dislikes</h3>
+          <ul data-testid="test-user-dislikes">
+            <li>Small talks</li>
+            <li>Dirty</li>
+            <li>Lies</li>
+          </ul>
+        </section>
+      </div>
+    </article>
+
+    <script src="script.js"></script>
+  </body>
+</html>
